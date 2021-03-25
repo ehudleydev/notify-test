@@ -53,6 +53,7 @@ if (module.hot) {
     const NextApp = require('../shared/app').default
     ReactDOM.render(wrapApp(NextApp, store), rootEl)
   })
+  console.log('what');
 }
 
 const jssServerSide = document.querySelector(JSS_SSR_SELECTOR)
