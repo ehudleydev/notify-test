@@ -37,7 +37,9 @@ const rootEl = document.querySelector(APP_CONTAINER_SELECTOR)
 const wrapApp = (AppComponent, reduxStore) =>
   <Provider store={reduxStore}>
     <BrowserRouter>
-      
+      <AppContainer>
+        <AppComponent />
+      </AppContainer>
     </BrowserRouter>
   </Provider>
 
