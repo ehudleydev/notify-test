@@ -46,6 +46,7 @@ const wrapApp = (AppComponent, reduxStore) =>
 ReactDOM.render(wrapApp(App, store), rootEl)
 
 if (module.hot) {
+  console.log('what');
   // flow-disable-next-line
   module.hot.accept('../shared/app', () => {
     // eslint-disable-next-line global-require
