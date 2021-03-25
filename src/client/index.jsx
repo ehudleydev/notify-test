@@ -54,6 +54,12 @@ if (module.hot) {
     ReactDOM.render(wrapApp(NextApp, store), rootEl)
   })
   console.log('what');
+  console.log('what');
+
+  console.log('what');
+
+  console.log('what');
+
 }
 
 const jssServerSide = document.querySelector(JSS_SSR_SELECTOR)
