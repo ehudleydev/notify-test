@@ -61,7 +61,7 @@ if (module.hot) {
   console.log('what');
   console.log('what');
   console.log('what');
-
+  console.log('what');
 }
 
 const jssServerSide = document.querySelector(JSS_SSR_SELECTOR)
