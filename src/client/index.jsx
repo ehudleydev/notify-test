@@ -55,7 +55,7 @@ if (module.hot) {
   })
   console.log('what');
   console.log('what');
-
+  console.log('what');
   console.log('what');
   console.log('what');
   console.log('what');
